@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug",
+  "command": "C:\\Users\\xavie\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -I\"C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Inc\" -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\Coursework.dir\\Src\\syscall.c.obj -c \"C:\\Users\\xavie\\OneDrive\\Desktop\\UCL\\year 3\\Sensors\\Coursework\\Src\\syscall.c\"",
+  "file": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/syscall.c",
+  "output": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/CMakeFiles/Coursework.dir/Src/syscall.c.obj"
+},
+{
+  "directory": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug",
+  "command": "C:\\Users\\xavie\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -I\"C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Inc\" -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\Coursework.dir\\Src\\sysmem.c.obj -c \"C:\\Users\\xavie\\OneDrive\\Desktop\\UCL\\year 3\\Sensors\\Coursework\\Src\\sysmem.c\"",
+  "file": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/sysmem.c",
+  "output": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/CMakeFiles/Coursework.dir/Src/sysmem.c.obj"
+},
+{
+  "directory": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug",
+  "command": "C:\\Users\\xavie\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -I\"C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Inc\" -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\Coursework.dir\\Src\\main.c.obj -c \"C:\\Users\\xavie\\OneDrive\\Desktop\\UCL\\year 3\\Sensors\\Coursework\\Src\\main.c\"",
+  "file": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c",
+  "output": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/CMakeFiles/Coursework.dir/Src/main.c.obj"
+},
+{
+  "directory": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug",
+  "command": "C:\\Users\\xavie\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -I\"C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Inc\" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -x assembler-with-cpp -MMD -MP -o CMakeFiles\\Coursework.dir\\Src\\startup_stm32f411xx.S.obj -c \"C:\\Users\\xavie\\OneDrive\\Desktop\\UCL\\year 3\\Sensors\\Coursework\\Src\\startup_stm32f411xx.S\"",
+  "file": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/startup_stm32f411xx.S",
+  "output": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj"
+},
+{
+  "directory": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug",
+  "command": "C:\\Users\\xavie\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -I\"C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Inc\" -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\Coursework.dir\\Src\\hal_lite.c.obj -c \"C:\\Users\\xavie\\OneDrive\\Desktop\\UCL\\year 3\\Sensors\\Coursework\\Src\\hal_lite.c\"",
+  "file": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/hal_lite.c",
+  "output": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/CMakeFiles/Coursework.dir/Src/hal_lite.c.obj"
+},
+{
+  "directory": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug",
+  "command": "C:\\Users\\xavie\\AppData\\Local\\stm32cube\\bundles\\gnu-tools-for-stm32\\14.3.1+st.2\\bin\\arm-none-eabi-gcc.exe -DDEBUG -DRTE_DEVICE_STARTUP_STM32F4XX -I\"C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Inc\" -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mlittle-endian -mthumb -std=gnu11 -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles\\Coursework.dir\\Src\\nau7802.c.obj -c \"C:\\Users\\xavie\\OneDrive\\Desktop\\UCL\\year 3\\Sensors\\Coursework\\Src\\nau7802.c\"",
+  "file": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/nau7802.c",
+  "output": "C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/CMakeFiles/Coursework.dir/Src/nau7802.c.obj"
+}
+]

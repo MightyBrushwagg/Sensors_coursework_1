@@ -1,0 +1,12 @@
+# ninja log v7
+29	101	8137658186172929	CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj	39b69c00c9e90b72
+9	116	8137658185897423	CMakeFiles/Coursework.dir/Src/sysmem.c.obj	924242ade06b484e
+17	289	8149016190899428	CMakeFiles/Coursework.dir/Src/main.c.obj	bf5ba2232b98cd81
+3	141	8137658185897423	CMakeFiles/Coursework.dir/Src/syscall.c.obj	3254d3e1e13a50ad
+315	537	8149016193896864	Coursework.elf	aed4959da6ee3f93
+28	257	8149016191024986	CMakeFiles/Coursework.dir/Src/hal_lite.c.obj	dff611fd2107dffc
+38	259	8149016191121260	CMakeFiles/Coursework.dir/Src/nau7802.c.obj	37e17d2d35334b95
+31	303	8149084923637323	build.ninja	dba13e5814c023c2
+31	303	8149084923637323	C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/build/Debug/cmake_install.cmake	dba13e5814c023c2
+4	282	8149084924542512	CMakeFiles/Coursework.dir/Src/main.c.obj	bf5ba2232b98cd81
+283	486	8149084927337678	Coursework.elf	aed4959da6ee3f93

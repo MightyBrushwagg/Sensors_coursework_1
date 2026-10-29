@@ -1,0 +1,20 @@
+# ninja log v6
+44	180	8149017968456188	CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj	b7b0b8df92c84d61
+25	247	8149017968263686	CMakeFiles/Coursework.dir/Src/sysmem.c.obj	2cb03700881fa20e
+360	695	8149017971633311	Coursework.elf	2b260b9d95a0d946
+54	321	8149017968574900	CMakeFiles/Coursework.dir/Src/hal_lite.c.obj	3af2e53f953250a7
+63	301	8149017968661593	CMakeFiles/Coursework.dir/Src/nau7802.c.obj	30edccac8762ebb6
+34	289	8149017968369784	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+12	359	8149017968140228	CMakeFiles/Coursework.dir/Src/syscall.c.obj	854b4b9fab49bc6a
+10	287	8149028922191166	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+290	500	8149028924993916	Coursework.elf	2b260b9d95a0d946
+12	317	8149041871605509	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+319	566	8149041874636063	Coursework.elf	2b260b9d95a0d946
+17	382	8149082292013300	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+384	665	8149082295677682	Coursework.elf	2b260b9d95a0d946
+12	297	8149083673781338	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+300	671	8149083676717197	Coursework.elf	2b260b9d95a0d946
+17	299	8149087932423044	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+301	507	8149087935248085	Coursework.elf	2b260b9d95a0d946
+10	985	8149089368828340	CMakeFiles/Coursework.dir/Src/main.c.obj	ec2e5007213460a2
+987	1653	8149089378597174	Coursework.elf	2b260b9d95a0d946

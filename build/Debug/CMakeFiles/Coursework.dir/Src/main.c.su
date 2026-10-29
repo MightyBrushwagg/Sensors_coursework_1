@@ -1,0 +1,6 @@
+C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c:50:6:SystemInit	4	static
+C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c:56:5:__io_putchar	16	static
+C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c:63:13:print_fixed	40	static
+C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c:76:13:halt_with_error	16	static
+C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c:85:13:setup_scale	40	static
+C:/Users/xavie/OneDrive/Desktop/UCL/year 3/Sensors/Coursework/Src/main.c:132:5:main	16	static
