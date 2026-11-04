@@ -44,11 +44,12 @@
 #define FILTER_ALPHA        0.3f     /* low-pass on the force, 1.0 = off, smaller = smoother */
 
 /* ---- Wind calibration ---- */
-#define WIND_CAL_AT_BOOT    1        /* 1 = measure the reference force at KNOWN_PSI on every boot */
-#define KNOWN_PSI           0.010f   /* tunnel dynamic pressure used for calibration, psi */
-#define REF_COUNTS          10000.0f /* counts above zero at KNOWN_PSI, used when WIND_CAL_AT_BOOT = 0 */
+#define WIND_CAL_AT_BOOT    0        /* 1 = measure the reference force at KNOWN_PSI on every boot */
+#define KNOWN_PSI           0.00145038f   /* tunnel dynamic pressure used for calibration, psi */
+#define REF_COUNTS          22401.0f /* counts above zero at KNOWN_PSI, used when WIND_CAL_AT_BOOT = 0 */
 #define AIR_DENSITY         1.225f   /* kg/m^3 */
 #define PA_PER_PSI          6894.757f
+#define SPEED_BIAS_MPS      0.641f   /* added to every speed, lowest RMSE against ground truth on the 4 Nov good tunnel run */
 #define WIND_CAL_DELAY_S    10       /* time to bring the tunnel up to KNOWN_PSI */
 #define WIND_CAL_SAMPLES    250      /* ~0.8 s at 320 SPS */
 
@@ -209,8 +210,8 @@ static inline float fsqrt(float x)
 static float counts_to_speed(float counts)
 {
     float ratio = counts / ref_counts;   /* = q / q_ref */
-    if (ratio <= 0.0f) return 0.0f;      /* noise around zero, or pushed backwards */
-    return v_ref * fsqrt(ratio);
+    if (ratio <= 0.0f) return SPEED_BIAS_MPS;   /* noise around zero, or pushed backwards */
+    return v_ref * fsqrt(ratio) + SPEED_BIAS_MPS;
 }
 
 int main(void)
