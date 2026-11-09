@@ -1,0 +1,126 @@
+HOW THE WIND SPEED CALIBRATION WORKS
+====================================
+
+All the code described here is in Src/main.c.
+
+1. What the sensor measures
+---------------------------
+The wind pushes on the sensor, and a load cell measures that drag force. A
+NAU7802 24-bit ADC reads the load cell 320 times a second. Its output is a raw
+number in "counts", and the force is proportional to how far the counts move
+from their no-wind value.
+
+Drag on a body in a flow is
+
+    F = Cd * A * q,    where q = 0.5 * rho * v^2   (dynamic pressure)
+
+Cd (drag coefficient) and A (frontal area) are not known accurately, so the
+code never uses them directly. Instead it calibrates them out with one
+reference measurement (step 3).
+
+
+2. Step 1: tare (zero wind)
+---------------------------
+At power-up, with the tunnel OFF, the board waits 1 s, then averages 200 ADC
+samples (about 0.6 s) and stores the result as the zero offset. Every later reading
+has this subtracted, so
+
+    counts = raw reading - zero offset     (proportional to drag force)
+
+The tunnel MUST be off during this step. Any airflow here shifts the zero and
+puts an error on every reading after it.
+
+
+3. Step 2: reference point at a known pressure
+----------------------------------------------
+The tunnel is set to a known dynamic pressure, KNOWN_PSI. It is currently
+0.00145038 psi, which is 10.0 Pa.
+
+  - If WIND_CAL_AT_BOOT = 1 (current setting): after the tare, the board
+    prints a 10 s countdown showing the live change in counts. During that
+    time, bring the tunnel up to KNOWN_PSI. It then averages 250 samples
+    (about 0.8 s) and stores the result as ref_counts. If the reading moved
+    fewer than 200 counts, it stops with an error (green LED flashing fast),
+    because the tunnel or sensor is probably not working.
+
+    Note: the prompt prints the pressure to 4 decimal places, so it reads
+    "Set the tunnel to 0.0015 psi". The value actually used is
+    0.00145038 psi (10 Pa), so set the tunnel to 10 Pa.
+
+  - If WIND_CAL_AT_BOOT = 0: it skips this step and uses the stored value
+    REF_COUNTS (currently 22401) from an earlier calibration. The board prints
+    that number at the end of every boot calibration so it can be copied in.
+
+The speed at the reference pressure follows from the pressure alone:
+
+    v_ref = sqrt(2 * q_ref / rho)
+          = sqrt(2 * 10.0 Pa / 1.225 kg/m^3)  =  4.04 m/s
+
+
+4. Turning force into speed
+---------------------------
+Force is proportional to q, and q is proportional to v^2. So with only the
+ratio of the current force to the reference force:
+
+    q / q_ref = counts / ref_counts
+    v = v_ref * sqrt(counts / ref_counts)
+
+Cd, A and the load cell's scale factor all cancel out in that ratio. This is
+why the calibration needs only one known pressure plus the zero.
+
+Example: if the force is 4 times the reference force, the speed is
+2 x 4.04 = 8.08 m/s.
+
+
+5. Empirical bias correction
+----------------------------
+A fixed SPEED_BIAS_MPS = +0.641 m/s is then added to every output:
+
+    v_out = v_ref * sqrt(counts / ref_counts) + 0.641
+
+The value was found by testing every bias from -2.000 to +2.000 m/s in
+0.001 m/s steps on the 4 Nov "good tunnel" run, and keeping the one with the
+lowest error against the ground truth. On that run it cut the MSE from 0.447
+to 0.036 (m/s)^2.
+
+Limitations:
+  - It is purely empirical. A fixed error in force would not produce a fixed
+    error in speed, so the bias does not have a physical explanation yet.
+  - It was fitted on data between about 4.5 and 9.7 m/s only.
+  - With the tunnel off, the output can never go below 0.64 m/s, because the
+    bias is added even when the measured force is zero or negative.
+  - It only applies with the same calibration and mounting as that run.
+    After recalibrating or remounting, it should be re-fitted.
+  - The Team 7 log of 5 Nov contains readings below 0.64 m/s, so it seems to
+    have been recorded with a build that did not include this bias.
+
+
+6. Filtering and output
+-----------------------
+  - Smoothing: each new ADC sample goes through a first-order low-pass filter
+    on the force (FILTER_ALPHA = 0.3) before conversion to speed, which
+    reduces jitter. The filter starts at zero force, so the first few
+    outputs after "Streaming" ramp up over roughly 10 samples (~30 ms).
+  - Negative force: if the filtered force is zero or negative (noise around
+    zero, or a push backwards), the speed is taken as 0 before the bias is
+    added.
+  - Output: the board prints one speed per line in m/s, to 2 decimal places,
+    at 200 Hz (OUTPUT_HZ), over the USB serial port at 115200 baud.
+  - Measured rate: the Team 7 log shows an average output rate of 199.4 Hz.
+
+
+7. Separate weight calibration (not used for speed)
+---------------------------------------------------
+Setting RUN_CALIBRATION = 1 runs an older guided calibration with a known
+mass (KNOWN_MASS_GRAMS, 50 g). It produces ZERO_OFFSET and CAL_FACTOR
+(counts per gram) and is useful for checking that the load cell works. The
+speed calculation does not depend on it, because the speed comes from the
+force ratio in step 4.
+
+
+8. Quick procedure
+------------------
+  1. Tunnel OFF. Power up or reset the board. Wait for the tare.
+  2. Within 10 s, set the tunnel to KNOWN_PSI (10 Pa).
+  3. Wait for "Wind calibration done". Optionally note REF_COUNTS.
+  4. Speeds then stream at 200 Hz. Change the tunnel speed as required.

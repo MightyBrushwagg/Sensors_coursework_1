@@ -44,7 +44,7 @@
 #define FILTER_ALPHA        0.3f     /* low-pass on the force, 1.0 = off, smaller = smoother */
 
 /* ---- Wind calibration ---- */
-#define WIND_CAL_AT_BOOT    0        /* 1 = measure the reference force at KNOWN_PSI on every boot */
+#define WIND_CAL_AT_BOOT    1        /* 1 = measure the reference force at KNOWN_PSI on every boot */
 #define KNOWN_PSI           0.00145038f   /* tunnel dynamic pressure used for calibration, psi */
 #define REF_COUNTS          22401.0f /* counts above zero at KNOWN_PSI, used when WIND_CAL_AT_BOOT = 0 */
 #define AIR_DENSITY         1.225f   /* kg/m^3 */

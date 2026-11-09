@@ -559,7 +559,7 @@ LOAD C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 0x08000000                g_pfnVectors
                 0x08000198                        . = ALIGN (0x4)
 
-.text           0x080001c0     0x86d4
+.text           0x080001c0     0x87ac
                 0x080001c0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001c0       0x40 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -738,414 +738,414 @@ LOAD C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 0x080021d8                _sbrk
  .text.halt_with_error
                 0x08002214       0x24 CMakeFiles/Coursework.dir/Src/main.c.obj
- .text.print_fixed.constprop.0
-                0x08002238       0x60 CMakeFiles/Coursework.dir/Src/main.c.obj
+ .text.print_fixed
+                0x08002238       0x6c CMakeFiles/Coursework.dir/Src/main.c.obj
  .text.SystemInit
-                0x08002298       0x12 CMakeFiles/Coursework.dir/Src/main.c.obj
-                0x08002298                SystemInit
- *fill*         0x080022aa        0x2 
+                0x080022a4       0x12 CMakeFiles/Coursework.dir/Src/main.c.obj
+                0x080022a4                SystemInit
+ *fill*         0x080022b6        0x2 
  .text.__io_putchar
-                0x080022ac       0x1c CMakeFiles/Coursework.dir/Src/main.c.obj
-                0x080022ac                __io_putchar
+                0x080022b8       0x1c CMakeFiles/Coursework.dir/Src/main.c.obj
+                0x080022b8                __io_putchar
  .text.startup.main
-                0x080022c8      0x190 CMakeFiles/Coursework.dir/Src/main.c.obj
-                0x080022c8                main
+                0x080022d4      0x260 CMakeFiles/Coursework.dir/Src/main.c.obj
+                0x080022d4                main
  .text.Reset_Handler
-                0x08002458       0x50 CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj
-                0x08002458                Reset_Handler
+                0x08002534       0x50 CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj
+                0x08002534                Reset_Handler
  .text.Default_Handler
-                0x080024a8        0x2 CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj
-                0x080024a8                RTC_Alarm_IRQHandler
-                0x080024a8                EXTI2_IRQHandler
-                0x080024a8                DebugMon_Handler
-                0x080024a8                SPI4_IRQHandler
-                0x080024a8                TIM1_CC_IRQHandler
-                0x080024a8                DMA2_Stream5_IRQHandler
-                0x080024a8                HardFault_Handler
-                0x080024a8                DMA1_Stream5_IRQHandler
-                0x080024a8                PVD_IRQHandler
-                0x080024a8                SDIO_IRQHandler
-                0x080024a8                TAMP_STAMP_IRQHandler
-                0x080024a8                PendSV_Handler
-                0x080024a8                NMI_Handler
-                0x080024a8                EXTI3_IRQHandler
-                0x080024a8                TIM1_UP_TIM10_IRQHandler
-                0x080024a8                I2C3_ER_IRQHandler
-                0x080024a8                EXTI0_IRQHandler
-                0x080024a8                I2C2_EV_IRQHandler
-                0x080024a8                DMA1_Stream2_IRQHandler
-                0x080024a8                UsageFault_Handler
-                0x080024a8                DMA2_Stream2_IRQHandler
-                0x080024a8                SPI1_IRQHandler
-                0x080024a8                TIM1_BRK_TIM9_IRQHandler
-                0x080024a8                DMA2_Stream3_IRQHandler
-                0x080024a8                USART6_IRQHandler
-                0x080024a8                DMA2_Stream0_IRQHandler
-                0x080024a8                TIM4_IRQHandler
-                0x080024a8                I2C1_EV_IRQHandler
-                0x080024a8                DMA1_Stream6_IRQHandler
-                0x080024a8                DMA1_Stream1_IRQHandler
-                0x080024a8                TIM3_IRQHandler
-                0x080024a8                RCC_IRQHandler
-                0x080024a8                Default_Handler
-                0x080024a8                EXTI15_10_IRQHandler
-                0x080024a8                ADC_IRQHandler
-                0x080024a8                DMA1_Stream7_IRQHandler
-                0x080024a8                SPI5_IRQHandler
-                0x080024a8                TIM5_IRQHandler
-                0x080024a8                DMA2_Stream7_IRQHandler
-                0x080024a8                I2C3_EV_IRQHandler
-                0x080024a8                EXTI9_5_IRQHandler
-                0x080024a8                RTC_WKUP_IRQHandler
-                0x080024a8                SPI2_IRQHandler
-                0x080024a8                MemManage_Handler
-                0x080024a8                DMA1_Stream0_IRQHandler
-                0x080024a8                SVC_Handler
-                0x080024a8                EXTI4_IRQHandler
-                0x080024a8                WWDG_IRQHandler
-                0x080024a8                TIM2_IRQHandler
-                0x080024a8                OTG_FS_WKUP_IRQHandler
-                0x080024a8                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080024a8                EXTI1_IRQHandler
-                0x080024a8                USART2_IRQHandler
-                0x080024a8                I2C2_ER_IRQHandler
-                0x080024a8                DMA2_Stream1_IRQHandler
-                0x080024a8                FLASH_IRQHandler
-                0x080024a8                DMA2_Stream4_IRQHandler
-                0x080024a8                BusFault_Handler
-                0x080024a8                USART1_IRQHandler
-                0x080024a8                OTG_FS_IRQHandler
-                0x080024a8                SPI3_IRQHandler
-                0x080024a8                DMA1_Stream4_IRQHandler
-                0x080024a8                I2C1_ER_IRQHandler
-                0x080024a8                DMA2_Stream6_IRQHandler
-                0x080024a8                DMA1_Stream3_IRQHandler
- *fill*         0x080024aa        0x2 
+                0x08002584        0x2 CMakeFiles/Coursework.dir/Src/startup_stm32f411xx.S.obj
+                0x08002584                RTC_Alarm_IRQHandler
+                0x08002584                EXTI2_IRQHandler
+                0x08002584                DebugMon_Handler
+                0x08002584                SPI4_IRQHandler
+                0x08002584                TIM1_CC_IRQHandler
+                0x08002584                DMA2_Stream5_IRQHandler
+                0x08002584                HardFault_Handler
+                0x08002584                DMA1_Stream5_IRQHandler
+                0x08002584                PVD_IRQHandler
+                0x08002584                SDIO_IRQHandler
+                0x08002584                TAMP_STAMP_IRQHandler
+                0x08002584                PendSV_Handler
+                0x08002584                NMI_Handler
+                0x08002584                EXTI3_IRQHandler
+                0x08002584                TIM1_UP_TIM10_IRQHandler
+                0x08002584                I2C3_ER_IRQHandler
+                0x08002584                EXTI0_IRQHandler
+                0x08002584                I2C2_EV_IRQHandler
+                0x08002584                DMA1_Stream2_IRQHandler
+                0x08002584                UsageFault_Handler
+                0x08002584                DMA2_Stream2_IRQHandler
+                0x08002584                SPI1_IRQHandler
+                0x08002584                TIM1_BRK_TIM9_IRQHandler
+                0x08002584                DMA2_Stream3_IRQHandler
+                0x08002584                USART6_IRQHandler
+                0x08002584                DMA2_Stream0_IRQHandler
+                0x08002584                TIM4_IRQHandler
+                0x08002584                I2C1_EV_IRQHandler
+                0x08002584                DMA1_Stream6_IRQHandler
+                0x08002584                DMA1_Stream1_IRQHandler
+                0x08002584                TIM3_IRQHandler
+                0x08002584                RCC_IRQHandler
+                0x08002584                Default_Handler
+                0x08002584                EXTI15_10_IRQHandler
+                0x08002584                ADC_IRQHandler
+                0x08002584                DMA1_Stream7_IRQHandler
+                0x08002584                SPI5_IRQHandler
+                0x08002584                TIM5_IRQHandler
+                0x08002584                DMA2_Stream7_IRQHandler
+                0x08002584                I2C3_EV_IRQHandler
+                0x08002584                EXTI9_5_IRQHandler
+                0x08002584                RTC_WKUP_IRQHandler
+                0x08002584                SPI2_IRQHandler
+                0x08002584                MemManage_Handler
+                0x08002584                DMA1_Stream0_IRQHandler
+                0x08002584                SVC_Handler
+                0x08002584                EXTI4_IRQHandler
+                0x08002584                WWDG_IRQHandler
+                0x08002584                TIM2_IRQHandler
+                0x08002584                OTG_FS_WKUP_IRQHandler
+                0x08002584                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08002584                EXTI1_IRQHandler
+                0x08002584                USART2_IRQHandler
+                0x08002584                I2C2_ER_IRQHandler
+                0x08002584                DMA2_Stream1_IRQHandler
+                0x08002584                FLASH_IRQHandler
+                0x08002584                DMA2_Stream4_IRQHandler
+                0x08002584                BusFault_Handler
+                0x08002584                USART1_IRQHandler
+                0x08002584                OTG_FS_IRQHandler
+                0x08002584                SPI3_IRQHandler
+                0x08002584                DMA1_Stream4_IRQHandler
+                0x08002584                I2C1_ER_IRQHandler
+                0x08002584                DMA2_Stream6_IRQHandler
+                0x08002584                DMA1_Stream3_IRQHandler
+ *fill*         0x08002586        0x2 
  .text.i2c_wait
-                0x080024ac       0x34 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x08002588       0x34 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
  .text.i2c_start
-                0x080024e0       0x2a CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
- *fill*         0x0800250a        0x2 
+                0x080025bc       0x2a CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+ *fill*         0x080025e6        0x2 
  .text.SysTick_Handler
-                0x0800250c       0x10 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x0800250c                SysTick_Handler
+                0x080025e8       0x10 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x080025e8                SysTick_Handler
  .text.HAL_Init
-                0x0800251c       0x14 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x0800251c                HAL_Init
+                0x080025f8       0x14 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x080025f8                HAL_Init
  .text.HAL_GetTick
-                0x08002530        0xc CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x08002530                HAL_GetTick
+                0x0800260c        0xc CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x0800260c                HAL_GetTick
  .text.HAL_Delay
-                0x0800253c       0x18 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x0800253c                HAL_Delay
+                0x08002618       0x18 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x08002618                HAL_Delay
  .text.HAL_GPIO_TogglePin
-                0x08002554        0x8 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x08002554                HAL_GPIO_TogglePin
+                0x08002630        0x8 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x08002630                HAL_GPIO_TogglePin
  .text.MX_GPIO_Init
-                0x0800255c       0x24 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x0800255c                MX_GPIO_Init
+                0x08002638       0x24 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x08002638                MX_GPIO_Init
  .text.MX_USART2_UART_Init
-                0x08002580       0x48 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x08002580                MX_USART2_UART_Init
+                0x0800265c       0x48 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x0800265c                MX_USART2_UART_Init
  .text.HAL_UART_Transmit
-                0x080025c8       0x40 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x080025c8                HAL_UART_Transmit
+                0x080026a4       0x40 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x080026a4                HAL_UART_Transmit
  .text.MX_I2C1_Init
-                0x08002608       0xa0 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x08002608                MX_I2C1_Init
+                0x080026e4       0xa0 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x080026e4                MX_I2C1_Init
  .text.HAL_I2C_IsDeviceReady
-                0x080026a8       0x60 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x080026a8                HAL_I2C_IsDeviceReady
+                0x08002784       0x60 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x08002784                HAL_I2C_IsDeviceReady
  .text.HAL_I2C_Mem_Write
-                0x08002708       0x98 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x08002708                HAL_I2C_Mem_Write
+                0x080027e4       0x98 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x080027e4                HAL_I2C_Mem_Write
  .text.HAL_I2C_Mem_Read
-                0x080027a0      0x198 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x080027a0                HAL_I2C_Mem_Read
+                0x0800287c      0x198 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x0800287c                HAL_I2C_Mem_Read
  .text.reg_write.isra.0
-                0x08002938       0x26 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002a14       0x26 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
  .text.reg_read.isra.0
-                0x0800295e       0x20 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002a3a       0x20 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
  .text.reg_modify
-                0x0800297e       0x3a CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002a5a       0x3a CMakeFiles/Coursework.dir/Src/nau7802.c.obj
  .text.NAU7802_IsConnected
-                0x080029b8       0x16 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x080029b8                NAU7802_IsConnected
+                0x08002a94       0x16 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002a94                NAU7802_IsConnected
  .text.NAU7802_SetGain
-                0x080029ce        0xa CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x080029ce                NAU7802_SetGain
+                0x08002aaa        0xa CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002aaa                NAU7802_SetGain
  .text.NAU7802_SetRate
-                0x080029d8        0xe CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x080029d8                NAU7802_SetRate
+                0x08002ab4        0xe CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002ab4                NAU7802_SetRate
  .text.NAU7802_SetLDO
-                0x080029e6       0x26 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x080029e6                NAU7802_SetLDO
+                0x08002ac2       0x26 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002ac2                NAU7802_SetLDO
  .text.NAU7802_DataReady
-                0x08002a0c       0x1c CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002a0c                NAU7802_DataReady
+                0x08002ae8       0x1c CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002ae8                NAU7802_DataReady
  .text.NAU7802_ReadRaw
-                0x08002a28       0x72 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002a28                NAU7802_ReadRaw
+                0x08002b04       0x72 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002b04                NAU7802_ReadRaw
  .text.NAU7802_CalibrateAFE
-                0x08002a9a       0x7e CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002a9a                NAU7802_CalibrateAFE
+                0x08002b76       0x7e CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002b76                NAU7802_CalibrateAFE
  .text.NAU7802_Init
-                0x08002b18      0x108 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002b18                NAU7802_Init
+                0x08002bf4      0x108 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002bf4                NAU7802_Init
  .text.NAU7802_ReadAverage
-                0x08002c20       0x50 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002c20                NAU7802_ReadAverage
+                0x08002cfc       0x50 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002cfc                NAU7802_ReadAverage
  .text.NAU7802_Tare
-                0x08002c70       0x14 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002c70                NAU7802_Tare
+                0x08002d4c       0x14 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002d4c                NAU7802_Tare
  .text.NAU7802_SetCalibration
-                0x08002c84        0x8 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
-                0x08002c84                NAU7802_SetCalibration
- .text.printf   0x08002c8c       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-printf.o)
-                0x08002c8c                printf
- .text.putchar  0x08002cb4       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-putchar.o)
-                0x08002cb4                putchar
- .text._puts_r  0x08002cc4       0xbc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-puts.o)
-                0x08002cc4                _puts_r
- .text.puts     0x08002d80       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-puts.o)
-                0x08002d80                puts
- .text.setvbuf  0x08002d90      0x1a4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-setvbuf.o)
-                0x08002d90                setvbuf
- .text.malloc   0x08002f34       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
-                0x08002f34                malloc
- *fill*         0x08002f44        0x4 
+                0x08002d60        0x8 CMakeFiles/Coursework.dir/Src/nau7802.c.obj
+                0x08002d60                NAU7802_SetCalibration
+ .text.printf   0x08002d68       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-printf.o)
+                0x08002d68                printf
+ .text.putchar  0x08002d90       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-putchar.o)
+                0x08002d90                putchar
+ .text._puts_r  0x08002da0       0xbc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-puts.o)
+                0x08002da0                _puts_r
+ .text.puts     0x08002e5c       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-puts.o)
+                0x08002e5c                puts
+ .text.setvbuf  0x08002e6c      0x1a4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-setvbuf.o)
+                0x08002e6c                setvbuf
+ .text.malloc   0x08003010       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-malloc.o)
+                0x08003010                malloc
  .text._vfprintf_r
-                0x08002f48     0x2178 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
-                0x08002f48                _vfprintf_r
+                0x08003020     0x2178 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08003020                _vfprintf_r
  .text.__sbprintf
-                0x080050c0       0x84 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08005198       0x84 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
  .text.__sprint_r
-                0x08005144       0x20 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
-                0x08005144                __sprint_r
+                0x0800521c       0x20 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+                0x0800521c                __sprint_r
  .text.__sfvwrite_r
-                0x08005164      0x2ec C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
-                0x08005164                __sfvwrite_r
+                0x0800523c      0x2ec C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+                0x0800523c                __sfvwrite_r
  .text.__smakebuf_r
-                0x08005450       0xd0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
-                0x08005450                __smakebuf_r
+                0x08005528       0xd0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+                0x08005528                __smakebuf_r
  .text.__swhatbuf_r
-                0x08005520       0x60 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
-                0x08005520                __swhatbuf_r
- .text._putc_r  0x08005580       0x78 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-putc.o)
-                0x08005580                _putc_r
+                0x080055f8       0x60 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+                0x080055f8                __swhatbuf_r
+ .text._putc_r  0x08005658       0x78 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-putc.o)
+                0x08005658                _putc_r
  .text.__swbuf_r
-                0x080055f8       0xac C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wbuf.o)
-                0x080055f8                __swbuf_r
+                0x080056d0       0xac C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wbuf.o)
+                0x080056d0                __swbuf_r
  .text.__swsetup_r
-                0x080056a4       0xfc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
-                0x080056a4                __swsetup_r
- .text.memmove  0x080057a0      0x130 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
-                0x080057a0                memmove
- .text.strncpy  0x080058d0       0x68 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
-                0x080058d0                strncpy
+                0x0800577c       0xfc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+                0x0800577c                __swsetup_r
+ .text.memmove  0x08005878      0x130 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+                0x08005878                memmove
+ .text.strncpy  0x080059a8       0x68 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+                0x080059a8                strncpy
  .text._localeconv_r
-                0x08005938        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
-                0x08005938                _localeconv_r
+                0x08005a10        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+                0x08005a10                _localeconv_r
  .text._fstat_r
-                0x08005940       0x2c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
-                0x08005940                _fstat_r
+                0x08005a18       0x2c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+                0x08005a18                _fstat_r
  .text._isatty_r
-                0x0800596c       0x24 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
-                0x0800596c                _isatty_r
- .text.frexp    0x08005990       0x64 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
-                0x08005990                frexp
- .text.quorem   0x080059f4      0x12c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
- .text._dtoa_r  0x08005b20     0x1030 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
-                0x08005b20                _dtoa_r
- .text._Balloc  0x08006b50       0x4c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006b50                _Balloc
- .text._Bfree   0x08006b9c       0x14 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006b9c                _Bfree
+                0x08005a44       0x24 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+                0x08005a44                _isatty_r
+ .text.frexp    0x08005a68       0x64 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+                0x08005a68                frexp
+ .text.quorem   0x08005acc      0x12c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+ .text._dtoa_r  0x08005bf8     0x1030 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x08005bf8                _dtoa_r
+ .text._Balloc  0x08006c28       0x4c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006c28                _Balloc
+ .text._Bfree   0x08006c74       0x14 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006c74                _Bfree
  .text.__multadd
-                0x08006bb0       0xa0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006bb0                __multadd
+                0x08006c88       0xa0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006c88                __multadd
  .text.__hi0bits
-                0x08006c50       0x54 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006c50                __hi0bits
+                0x08006d28       0x54 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006d28                __hi0bits
  .text.__lo0bits
-                0x08006ca4       0x80 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006ca4                __lo0bits
- .text.__i2b    0x08006d24       0x5c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006d24                __i2b
+                0x08006d7c       0x80 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006d7c                __lo0bits
+ .text.__i2b    0x08006dfc       0x5c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006dfc                __i2b
  .text.__multiply
-                0x08006d80      0x16c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006d80                __multiply
+                0x08006e58      0x16c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006e58                __multiply
  .text.__pow5mult
-                0x08006eec       0xc0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006eec                __pow5mult
+                0x08006fc4       0xc0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006fc4                __pow5mult
  .text.__lshift
-                0x08006fac       0xe8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006fac                __lshift
- .text.__mcmp   0x08007094       0x44 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08007094                __mcmp
- .text.__mdiff  0x080070d8      0x174 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x080070d8                __mdiff
- .text.__d2b    0x0800724c       0xbc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800724c                __d2b
+                0x08007084       0xe8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08007084                __lshift
+ .text.__mcmp   0x0800716c       0x44 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x0800716c                __mcmp
+ .text.__mdiff  0x080071b0      0x174 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x080071b0                __mdiff
+ .text.__d2b    0x08007324       0xbc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08007324                __d2b
  .text._realloc_r
-                0x08007308      0x348 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
-                0x08007308                _realloc_r
+                0x080073e0      0x348 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+                0x080073e0                _realloc_r
  .text.__assert_func
-                0x08007650       0x40 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
-                0x08007650                __assert_func
+                0x08007728       0x40 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x08007728                __assert_func
  .text._calloc_r
-                0x08007690       0x6c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
-                0x08007690                _calloc_r
+                0x08007768       0x6c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+                0x08007768                _calloc_r
  .text.__ascii_mbtowc
-                0x080076fc       0x2c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
-                0x080076fc                __ascii_mbtowc
+                0x080077d4       0x2c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+                0x080077d4                __ascii_mbtowc
  .text.__ascii_wctomb
-                0x08007728       0x1c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
-                0x08007728                __ascii_wctomb
+                0x08007800       0x1c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+                0x08007800                __ascii_wctomb
  .text.fiprintf
-                0x08007744       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
-                0x08007744                fiprintf
+                0x0800781c       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+                0x0800781c                fiprintf
  .text._vfiprintf_r
-                0x0800776c      0xff4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x0800776c                _vfiprintf_r
+                0x08007844      0xff4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08007844                _vfiprintf_r
  .text.__sbprintf
-                0x08008760       0x84 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- .text.abort    0x080087e4       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
-                0x080087e4                abort
- .text.raise    0x080087f4       0x58 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
-                0x080087f4                raise
- .text._kill_r  0x0800884c       0x2c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x0800884c                _kill_r
+                0x08008838       0x84 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ .text.abort    0x080088bc       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+                0x080088bc                abort
+ .text.raise    0x080088cc       0x58 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+                0x080088cc                raise
+ .text._kill_r  0x08008924       0x2c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x08008924                _kill_r
  .text._getpid_r
-                0x08008878        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x08008878                _getpid_r
+                0x08008950        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x08008950                _getpid_r
  *(.glue_7)
- .glue_7        0x0800887c        0x0 linker stubs
+ .glue_7        0x08008954        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800887c        0x0 linker stubs
+ .glue_7t       0x08008954        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800887c        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08008954        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0800887c        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800887c                _init
- .init          0x08008880        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08008954        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08008954                _init
+ .init          0x08008958        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08008888        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08008888                _fini
- .fini          0x0800888c        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08008894                        . = ALIGN (0x4)
-                0x08008894                        _etext = .
+ .fini          0x08008960        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08008960                _fini
+ .fini          0x08008964        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0800896c                        . = ALIGN (0x4)
+                0x0800896c                        _etext = .
 
-.vfp11_veneer   0x08008894        0x0
- .vfp11_veneer  0x08008894        0x0 linker stubs
+.vfp11_veneer   0x0800896c        0x0
+ .vfp11_veneer  0x0800896c        0x0 linker stubs
 
-.v4_bx          0x08008894        0x0
- .v4_bx         0x08008894        0x0 linker stubs
+.v4_bx          0x0800896c        0x0
+ .v4_bx         0x0800896c        0x0 linker stubs
 
-.iplt           0x08008894        0x0
- .iplt          0x08008894        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0800896c        0x0
+ .iplt          0x0800896c        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08008898      0x4a4
-                0x08008898                        . = ALIGN (0x4)
+.rodata         0x08008970      0x5ac
+                0x08008970                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.halt_with_error.str1.1
-                0x08008898       0xf4 CMakeFiles/Coursework.dir/Src/main.c.obj
+                0x08008970      0x1f8 CMakeFiles/Coursework.dir/Src/main.c.obj
                                   0xc (size before relaxing)
- .rodata.print_fixed.constprop.0.str1.1
-                0x0800898c        0xa CMakeFiles/Coursework.dir/Src/main.c.obj
+ .rodata.print_fixed.str1.1
+                0x08008b68        0xa CMakeFiles/Coursework.dir/Src/main.c.obj
  .rodata.main.str1.1
-                0x0800898c       0xe0 CMakeFiles/Coursework.dir/Src/main.c.obj
+                0x08008b68      0x1e4 CMakeFiles/Coursework.dir/Src/main.c.obj
  .rodata._puts_r.str1.4
-                0x0800898c      0x16f C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-puts.o)
+                0x08008b68      0x16f C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-puts.o)
                                   0x2 (size before relaxing)
  .rodata._vfprintf_r.str1.4
-                0x08008afb       0x42 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
- *fill*         0x08008afb        0x1 
+                0x08008cd7       0x42 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+ *fill*         0x08008cd7        0x1 
  .rodata.zeroes.0
-                0x08008afc       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08008cd8       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
  .rodata.blanks.1
-                0x08008b0c       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
+                0x08008ce8       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x08008b1c       0x80 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x08008cf8       0x80 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
  .rodata.__multadd.str1.4
-                0x08008b1c       0x6d C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- .rodata.p05.0  0x08008b1c        0xc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08008cf8       0x6d C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ .rodata.p05.0  0x08008cf8        0xc C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ *fill*         0x08008d04        0x4 
  .rodata.__mprec_bigtens
-                0x08008b28       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08008b28                __mprec_bigtens
+                0x08008d08       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08008d08                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08008b50       0xc8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08008b50                __mprec_tens
+                0x08008d30       0xc8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08008d30                __mprec_tens
  .rodata._setlocale_r.str1.4
-                0x08008c18        0xd C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x08008df8        0xd C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .rodata.str1.4
-                0x08008c18        0x2 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x08008df8        0x2 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .rodata.__assert_func.str1.4
-                0x08008c18       0x43 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x08008df8       0x43 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
  .rodata._ctype_
-                0x08008c18      0x101 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
-                0x08008c18                _ctype_
+                0x08008df8      0x101 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
+                0x08008df8                _ctype_
  .rodata._vfiprintf_r.str1.4
-                0x08008d19       0x2f C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- *fill*         0x08008d19        0x3 
+                0x08008ef9       0x2f C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ *fill*         0x08008ef9        0x3 
  .rodata.zeroes.0
-                0x08008d1c       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08008efc       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .rodata.blanks.1
-                0x08008d2c       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x08008d3c                        . = ALIGN (0x4)
+                0x08008f0c       0x10 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08008f1c                        . = ALIGN (0x4)
 
-.ARM.extab      0x08008d3c        0x0
-                0x08008d3c                        . = ALIGN (0x4)
+.ARM.extab      0x08008f1c        0x0
+                0x08008f1c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08008d3c                        . = ALIGN (0x4)
+                0x08008f1c                        . = ALIGN (0x4)
 
-.ARM            0x08008d3c        0x8
-                0x08008d3c                        . = ALIGN (0x4)
-                0x08008d3c                        __exidx_start = .
+.ARM            0x08008f1c        0x8
+                0x08008f1c                        . = ALIGN (0x4)
+                0x08008f1c                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08008d3c        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .ARM.exidx     0x08008d44        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .ARM.exidx     0x08008f1c        0x8 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x08008f24        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08008d44        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .ARM.exidx     0x08008f24        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08008d44        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .ARM.exidx     0x08008f24        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
                                   0x8 (size before relaxing)
-                0x08008d44                        __exidx_end = .
-                0x08008d44                        . = ALIGN (0x4)
+                0x08008f24                        __exidx_end = .
+                0x08008f24                        . = ALIGN (0x4)
 
-.preinit_array  0x08008d44        0x0
-                0x08008d44                        . = ALIGN (0x4)
-                0x08008d44                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08008f24        0x0
+                0x08008f24                        . = ALIGN (0x4)
+                0x08008f24                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08008d44                        PROVIDE (__preinit_array_end = .)
-                0x08008d44                        . = ALIGN (0x4)
+                0x08008f24                        PROVIDE (__preinit_array_end = .)
+                0x08008f24                        . = ALIGN (0x4)
 
-.init_array     0x08008d44        0x8
-                0x08008d44                        . = ALIGN (0x4)
-                0x08008d44                        PROVIDE (__init_array_start = .)
+.init_array     0x08008f24        0x8
+                0x08008f24                        . = ALIGN (0x4)
+                0x08008f24                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08008d44        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x08008f24        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08008d48        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08008d4c                        PROVIDE (__init_array_end = .)
-                0x08008d4c                        . = ALIGN (0x4)
+ .init_array    0x08008f28        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08008f2c                        PROVIDE (__init_array_end = .)
+                0x08008f2c                        . = ALIGN (0x4)
 
-.fini_array     0x08008d4c        0x4
-                0x08008d4c                        . = ALIGN (0x4)
-                0x08008d4c                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08008f2c        0x4
+                0x08008f2c                        . = ALIGN (0x4)
+                0x08008f2c                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08008d4c        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08008d50                        PROVIDE (__fini_array_end = .)
-                0x08008d50                        . = ALIGN (0x4)
-                0x08008d50                        _sidata = LOADADDR (.data)
+ .fini_array    0x08008f2c        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08008f30                        PROVIDE (__fini_array_end = .)
+                0x08008f30                        . = ALIGN (0x4)
+                0x08008f30                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08008d50        0x0
- .rel.iplt      0x08008d50        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08008f30        0x0
+ .rel.iplt      0x08008f30        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000      0x6bc load address 0x08008d50
+.data           0x20000000      0x6c0 load address 0x08008f30
                 0x20000000                        _sdata = .
  *(.data)
  *(.data*)
@@ -1170,24 +1170,26 @@ LOAD C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
  .data.__malloc_av_
                 0x20000140      0x408 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
                 0x20000140                __malloc_av_
- .data.huart2   0x20000548        0x4 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x20000548                huart2
- .data.hi2c1    0x2000054c        0x4 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
-                0x2000054c                hi2c1
+ .data.ref_counts
+                0x20000548        0x4 CMakeFiles/Coursework.dir/Src/main.c.obj
+ .data.huart2   0x2000054c        0x4 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x2000054c                huart2
+ .data.hi2c1    0x20000550        0x4 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x20000550                hi2c1
  .data.__global_locale
-                0x20000550      0x16c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
-                0x20000550                __global_locale
+                0x20000554      0x16c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x20000554                __global_locale
  *(.RamFunc)
  *(.RamFunc*)
-                0x200006bc                        . = ALIGN (0x4)
+                0x200006c0                        . = ALIGN (0x4)
 
-.igot.plt       0x200006bc        0x0 load address 0x0800940c
- .igot.plt      0x200006bc        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.igot.plt       0x200006c0        0x0 load address 0x080095f0
+ .igot.plt      0x200006c0        0x0 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.tdata          0x200006bc        0x0 load address 0x0800940c
+.tdata          0x200006c0        0x0 load address 0x080095f0
  *(.tdata .tdata.* .gnu.linkonce.td.*)
-                0x200006bc                        . = ALIGN (0x4)
-                0x200006bc                        _edata = .
+                0x200006c0                        . = ALIGN (0x4)
+                0x200006c0                        _edata = .
                 [!provide]                        PROVIDE (__data_end = .)
                 [!provide]                        PROVIDE (__tdata_end = .)
                 [!provide]                        PROVIDE (__tdata_start = ADDR (.tdata))
@@ -1201,12 +1203,12 @@ LOAD C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x200006bc        0x0 load address 0x0800940c
-                0x200006bc                        _sbss = .
-                0x200006bc                        __bss_start__ = _sbss
+.tbss           0x200006c0        0x0 load address 0x080095f0
+                0x200006c0                        _sbss = .
+                0x200006c0                        __bss_start__ = _sbss
                 [!provide]                        PROVIDE (__bss_start = .)
  *(.tbss .tbss.*)
-                0x200006bc                        . = ALIGN (0x4)
+                0x200006c0                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__tbss_end = .)
                 [!provide]                        PROVIDE (__tbss_start = ADDR (.tbss))
                 [!provide]                        PROVIDE (__tbss_size = (__tbss_end - __tbss_start))
@@ -1219,64 +1221,63 @@ LOAD C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+s
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x200006bc      0x348 load address 0x0800940c
+.bss            0x200006c0      0x348 load address 0x080095f0
  *(.bss)
- .bss           0x200006bc       0x1c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x200006c0       0x1c C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
- .bss.__sf      0x200006d8      0x138 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x200006d8                __sf
+ .bss.__sf      0x200006dc      0x138 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x200006dc                __sf
  .bss.__stdio_exit_handler
-                0x20000810        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x20000810                __stdio_exit_handler
- .bss.errno     0x20000814        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
-                0x20000814                errno
+                0x20000814        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x20000814                __stdio_exit_handler
+ .bss.errno     0x20000818        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                0x20000818                errno
  .bss.__lock___malloc_recursive_mutex
-                0x20000818        0x1 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x20000818                __lock___malloc_recursive_mutex
- *fill*         0x20000819        0x3 
- .bss.__lock___atexit_recursive_mutex
                 0x2000081c        0x1 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x2000081c                __lock___atexit_recursive_mutex
+                0x2000081c                __lock___malloc_recursive_mutex
  *fill*         0x2000081d        0x3 
- .bss.__lock___sfp_recursive_mutex
+ .bss.__lock___atexit_recursive_mutex
                 0x20000820        0x1 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x20000820                __lock___sfp_recursive_mutex
+                0x20000820                __lock___atexit_recursive_mutex
  *fill*         0x20000821        0x3 
- .bss.__atexit  0x20000824        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
-                0x20000824                __atexit
+ .bss.__lock___sfp_recursive_mutex
+                0x20000824        0x1 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x20000824                __lock___sfp_recursive_mutex
+ *fill*         0x20000825        0x3 
+ .bss.__atexit  0x20000828        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x20000828                __atexit
  .bss.__malloc_current_mallinfo
-                0x20000828       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x20000828                __malloc_current_mallinfo
+                0x2000082c       0x28 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x2000082c                __malloc_current_mallinfo
  .bss.__malloc_max_total_mem
-                0x20000850        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x20000850                __malloc_max_total_mem
- .bss.__malloc_max_sbrked_mem
                 0x20000854        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x20000854                __malloc_max_sbrked_mem
- .bss.__malloc_top_pad
+                0x20000854                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
                 0x20000858        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x20000858                __malloc_top_pad
+                0x20000858                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x2000085c        0x4 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x2000085c                __malloc_top_pad
  .bss.__atexit0
-                0x2000085c      0x190 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
-                0x2000085c                __atexit0
+                0x20000860      0x190 C:/Users/xavie/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
+                0x20000860                __atexit0
  .bss.__sbrk_heap_end
-                0x200009ec        0x4 CMakeFiles/Coursework.dir/Src/sysmem.c.obj
- .bss.v_ref     0x200009f0        0x4 CMakeFiles/Coursework.dir/Src/main.c.obj
- .bss.scale1    0x200009f4        0xc CMakeFiles/Coursework.dir/Src/main.c.obj
-                0x200009f4                scale1
- .bss.uwTick    0x20000a00        0x4 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
+                0x200009f0        0x4 CMakeFiles/Coursework.dir/Src/sysmem.c.obj
+ .bss.v_ref     0x200009f4        0x4 CMakeFiles/Coursework.dir/Src/main.c.obj
+ .bss.scale1    0x200009f8        0xc CMakeFiles/Coursework.dir/Src/main.c.obj
+                0x200009f8                scale1
+ .bss.uwTick    0x20000a04        0x4 CMakeFiles/Coursework.dir/Src/hal_lite.c.obj
  *(COMMON)
-                0x20000a04                        . = ALIGN (0x4)
-                0x20000a04                        _ebss = .
-                0x20000a04                        __bss_end__ = _ebss
+                0x20000a08                        . = ALIGN (0x4)
+                0x20000a08                        _ebss = .
+                0x20000a08                        __bss_end__ = _ebss
                 [!provide]                        PROVIDE (__bss_end = .)
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
                 [!provide]                        PROVIDE (__non_tls_bss_start = ADDR (.bss))
 
 ._user_heap_stack
-                0x20000a04      0x604 load address 0x0800940c
+                0x20000a08      0x600 load address 0x080095f0
                 0x20000a08                        . = ALIGN (0x8)
- *fill*         0x20000a04        0x4 
                 [!provide]                        PROVIDE (end = .)
                 0x20000a08                        PROVIDE (_end = .)
                 0x20000c08                        . = (. + _Min_Heap_Size)
